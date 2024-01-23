@@ -1,5 +1,6 @@
 package com.example.learnspring;
 
+import com.example.learnspring.leetcode.ReverseInteger7;
 import com.example.learnspring.leetcode.ZigZagConversion6;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.boot.SpringApplication;
@@ -14,9 +15,9 @@ public class LearnSpringApplication {
 
     public static void main(String[] args) {
 
-//        ZigZagConversion6 zigZagConversion6 = new ZigZagConversion6();
-//        zigZagConversion6.testCases();
-        SpringApplication.run(LearnSpringApplication.class, args);
+        ReverseInteger7 reverseInteger7 = new ReverseInteger7();
+        reverseInteger7.testCases();
+//        SpringApplication.run(LearnSpringApplication.class, args);
 
     }
 
