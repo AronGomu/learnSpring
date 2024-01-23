@@ -1,4 +1,4 @@
-package com.example.learnspring;
+package com.example.learnspring.controllers;
 
 import com.example.learnspring.Entities.JsonEntity;
 import lombok.extern.log4j.Log4j2;
